@@ -1,0 +1,29 @@
+/* ===== Table ===== */
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-table th {
+    text-align: left;
+    padding: 14px 12px;
+    border-bottom: 2px solid #eee;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #6b7280;
+}
+
+.order-table td {
+    padding: 16px 12px;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 15px;
+}
+
+.order-table tr:hover {
+    background: #f8fafc;
+}
+
+.order-table th:last-child,
+.order-table td:last-child {
+    width: 120px;
+}

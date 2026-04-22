@@ -1,0 +1,216 @@
+/* ===== Category Button ===== */
+.category-btn {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: var(--radius);
+    border: none;
+    background: transparent;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s ease;
+    color: #475569;
+}
+
+.category-btn:hover {
+    background: #f1f5f9;
+    color: #0f172a;
+}
+
+.category-btn.active {
+    background: #e2e8f0;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+/* ===== Book Button ===== */
+.book-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.book-btn:hover {
+    background: #1d4ed8;
+}
+
+/* ===== Pagination Button ===== */
+.page-btn {
+    padding: 8px 14px;
+    border: 1px solid #d1d5db;
+    background: white;
+    color: #374151;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.page-btn:hover {
+    background: #f3f4f6;
+}
+
+.page-btn.active {
+    background: #2563eb;
+    color: white;
+    border-color: #2563eb;
+    font-weight: 600;
+}
+
+.page-btn.active:hover {
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+.page-btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Add to Cart */
+.add-cart-btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    background: #334155;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-cart-btn:hover {
+    background: #1e293b;
+}
+
+/* Back button */
+.back-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #64748b;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.back-btn:hover {
+    color: #0f172a;
+}
+
+/* Delete Button */
+.delete-btn{
+    padding:10px 14px;
+    border:none;
+    border-radius:8px;
+    background:#f1f5f9;
+    cursor:pointer;
+}
+
+.delete-btn:hover{
+    background:#e2e8f0;
+}
+
+/* Checkout Button */
+.checkout-btn {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    padding: 12px;
+    background: var(--primary);
+    color: white;
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.checkout-btn:hover {
+    background: var(--primary-hover);
+}
+
+/* Browse Button */
+.browse-btn {
+    background: var(--primary);
+    color: white;
+    padding: 12px 28px;
+    border-radius: var(--radius);
+    text-decoration: none;
+}
+
+.browse-btn:hover {
+    background: var(--primary-hover);
+}
+
+/* Primary Button */
+.primary-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background: var(--primary-hover);
+}
+
+/* Login Button */
+.login-btn {
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: var(--radius);
+    border: none;
+    cursor: pointer;
+    background: var(--primary);
+    color: white;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+.login-btn:hover {
+    background: var(--primary-hover);
+}
+
+/* View Button */
+.view-btn {
+    padding: 6px 12px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #2563eb;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.view-btn:hover {
+    background: #1d4ed8;
+}
+
+/* Cancel Button */
+.cancel-btn {
+    width: 26px;
+    height: 26px;
+    border: none;
+    border-radius: 6px;
+    background: #fee2e2;
+    color: #b91c1c;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.cancel-btn:hover {
+    background: #fecaca;
+}

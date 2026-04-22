@@ -1,0 +1,52 @@
+/* ===== Sidebar ===== */
+.sidebarr {
+    width: 260px;
+    background: #ffffff;
+    border-right: 1px solid var(--border-color);
+    padding: 24px;
+
+    position: sticky;
+    top: 73px;
+    height: calc(100vh - 73px);
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebartitle {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+/* Category list */
+.categorylist {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* ===== Sidebar User Section ===== */
+.sidebarusersection {
+    margin-top: auto;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sidebarlink {
+    display: block;
+    padding: 10px 14px;
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-size: 14px;
+    color: #475569;
+    transition: 0.2s;
+}
+
+.sidebarlink:hover {
+    background: #f1f5f9;
+    color: #0f172a;
+}

@@ -1,0 +1,102 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #ffffff;
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 16px 0;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #1e293b;
+}
+
+.logo h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Search */
+.search-wrapper {
+    flex: 1;
+    max-width: 600px;
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #9ca3af;
+}
+
+/* Right actions */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Cart */
+.cart-btn {
+    position: relative;
+    padding: 8px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.cart-btn:hover {
+    background-color: var(--muted-bg);
+}
+
+.cart-badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background: var(--primary);
+    color: white;
+    font-size: 11px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-header h2 {
+    font-size: 22px;
+}
+
+.admin-header p {
+    font-size: 13px;
+    color: #64748b;
+}
+
+/* LOGOUT BTN */
+.logout-btn{
+color:#dc2626;
+text-decoration:none;
+font-weight:500;
+margin-left:15px;
+}
+
+.logout-btn:hover{
+text-decoration:underline;
+}
